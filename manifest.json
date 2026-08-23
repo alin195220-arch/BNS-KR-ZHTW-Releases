@@ -3,14 +3,14 @@
   "channel": "stable",
   "updater": {
     "minimum_version": "1.0.0",
-    "latest_version": null
+    "latest_version": "6.7.1"
   },
   "releases": [
     {
       "translation_version": "6.7.1",
       "release_date": "2026-08-23",
       "status": "REAL_OUTPUT_VERIFIED",
-      "enabled": false,
+      "enabled": true,
       "source": {
         "identity_method": "v3_normalized_sha256",
         "kr_local64_normalized_sha256": "d7e455abd5620bfba318483f1c9df8f4b5a0d416a92b83df3cd92a836e572118",
@@ -36,7 +36,7 @@
         "entry": "local64.dat",
         "metadata_entry": "payload.json"
       },
-      "notes": "RC4.2 production Release Asset transport and payload identity acceptance passed on 2026-08-23. Release remains disabled pending RC5 manifest-driven remote install acceptance. KR and ZHTW local64 identities use V3 normalized SHA-256; raw SHA-256 values are references only because the 128-byte PKCS#1 v1.5 signature field may vary between signing operations."
+      "notes": "RC4.2 production Release Asset acceptance and RC5 manifest-driven remote atomic install acceptance both passed on 2026-08-23. Enabled for V6.8.0 production Player Updater. KR and ZHTW local64 identities use V3 normalized SHA-256; raw SHA-256 values are references only because the 128-byte PKCS#1 v1.5 signature field may vary between signing operations."
     }
   ]
 }
