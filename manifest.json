@@ -28,8 +28,15 @@
         "signature_length": 128,
         "size_bytes": 18722233
       },
-      "payload": null,
-      "notes": "Bootstrap metadata only. Disabled until the V6.8.0 player updater and payload workflow pass real-machine acceptance. KR and ZHTW local64 identities use V3 normalized SHA-256; raw SHA-256 values are references only because the 128-byte PKCS#1 v1.5 signature field may vary between signing operations."
+      "payload": {
+        "format": "zip",
+        "url": "https://github.com/alin195220-arch/BNS-KR-ZHTW-Releases/releases/download/zhtw-6.7.1/BNS_ZHTW_Payload_6.7.1.zip",
+        "archive_sha256": "189aa7e2789eeffacea57d40cec4c15abd831dac3efc2b99da001bef6d631d9f",
+        "archive_size_bytes": 18723099,
+        "entry": "local64.dat",
+        "metadata_entry": "payload.json"
+      },
+      "notes": "RC4.2 production Release Asset transport and payload identity acceptance passed on 2026-08-23. Release remains disabled pending RC5 manifest-driven remote install acceptance. KR and ZHTW local64 identities use V3 normalized SHA-256; raw SHA-256 values are references only because the 128-byte PKCS#1 v1.5 signature field may vary between signing operations."
     }
   ]
 }
