@@ -101,6 +101,38 @@
                                          "metadata_entry":  "payload.json"
                                      },
                          "notes":  "Maintainer one-click release activated after remote asset re-verification."
+                     },
+                     {
+                         "translation_version":  "6.7.4",
+                         "release_date":  "2026-08-26",
+                         "status":  "CANDIDATE_REMOTE_VERIFIED",
+                         "enabled":  false,
+                         "source":  {
+                                        "identity_method":  "v3_normalized_sha256",
+                                        "kr_local64_normalized_sha256":  "222c0b4610350b391f7fbbc537b96aa27ea7682a4c0ebd353faaf27a78596d8e",
+                                        "reference_raw_sha256":  "920765b05e3093dd55b456cf48b1d524e94c48579904e94eaceccda32bf0b5d5",
+                                        "signature_offset":  35,
+                                        "signature_length":  128,
+                                        "size_bytes":  19241433,
+                                        "kr_xml64_sha256":  "206f253d3c45d42f9a2a280649fbf6dedf419da7e45c321a21b8a4587510e66f"
+                                    },
+                         "output":  {
+                                        "identity_method":  "v3_normalized_sha256",
+                                        "local64_zhtw_normalized_sha256":  "6a755eb98890314985b6657a8852135b0c33edaaf1d3a17c5da17531b4a428b8",
+                                        "reference_raw_sha256":  "22c2aac7bde54cebed42030b0cbba8d9e20e04eae126857432f1d199a36cb164",
+                                        "signature_offset":  35,
+                                        "signature_length":  128,
+                                        "size_bytes":  18723641
+                                    },
+                         "payload":  {
+                                         "format":  "zip",
+                                         "url":  "https://github.com/alin195220-arch/BNS-KR-ZHTW-Releases/releases/download/zhtw-6.7.4/BNS_ZHTW_Payload_6.7.4.zip",
+                                         "archive_sha256":  "5f111cace00182e69d20c2996ec310c75355f1de89e4b37a9f2dbcb3623a9244",
+                                         "archive_size_bytes":  18727216,
+                                         "entry":  "local64.dat",
+                                         "metadata_entry":  "payload.json"
+                                     },
+                         "notes":  "Maintainer one-click candidate: Release Asset remote verification PASS; disabled pending explicit activation."
                      }
                  ]
 }
