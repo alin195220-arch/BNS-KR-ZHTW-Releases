@@ -3,7 +3,7 @@
     "channel":  "stable",
     "updater":  {
                     "minimum_version":  "1.0.0",
-                    "latest_version":  "6.8.0"
+                    "latest_version":  "6.8.1"
                 },
     "releases":  [
                      {
@@ -489,8 +489,8 @@
                      {
                          "translation_version":  "6.8.1",
                          "release_date":  "2026-09-04",
-                         "status":  "CANDIDATE_REMOTE_VERIFIED",
-                         "enabled":  false,
+                         "status":  "REAL_OUTPUT_VERIFIED",
+                         "enabled":  true,
                          "source":  {
                                         "identity_method":  "v3_normalized_sha256",
                                         "kr_local64_normalized_sha256":  "a233baf86160c2546ab6816c8437a176ae490425e6d67e5e4f2f0e392bc2e7f5",
@@ -516,7 +516,7 @@
                                          "entry":  "local64.dat",
                                          "metadata_entry":  "payload.json"
                                      },
-                         "notes":  "Maintainer one-click candidate: Release Asset remote verification PASS; disabled pending explicit activation."
+                         "notes":  "Maintainer one-click release activated after remote asset re-verification."
                      }
                  ]
 }
